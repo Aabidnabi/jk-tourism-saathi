@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home.sos_page">
+
+
+    <ImageView
+        android:id="@+id/bg_img"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/contact"
+        android:contentDescription="TODO" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-15dp"
+        android:layout_below="@+id/bg_img"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        app:cardCornerRadius="12dp"
+        android:elevation="12dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp">
+
+            <TextView
+                android:id="@+id/contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="22dp"
+                android:layout_marginLeft="22dp"
+                android:text="Emergency alert"
+                android:textColor="@color/black"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/line_view"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_below="@id/contact"
+                android:layout_marginStart="18dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="36dp"
+                android:layout_marginRight="36dp"
+                android:background="@color/black" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginStart="22dp"
+                android:layout_below="@id/line_view"
+                android:layout_marginTop="16dp">
+
+                <ImageView
+                    android:id="@+id/imgg"
+                    android:layout_width="30dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/sos1"
+                    android:contentDescription="TODO" />
+
+                <LinearLayout
+                    android:id="@+id/lin_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/imgg"
+                    android:layout_toRightOf="@id/imgg"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="0dp"
+                        android:text="Police"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/call_100"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="8dp"
+                        android:text="100"
+                        android:textColor="#0277BD"
+                        android:textColorHighlight="@android:color/holo_red_dark"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/img_mob"
+                    android:layout_width="30dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@id/lin_1"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/sos1"
+                    android:contentDescription="TODO" />
+                <LinearLayout
+                    android:id="@+id/lin_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_below="@id/lin_1"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/img_mob"
+                    android:layout_toEndOf="@id/img_mob">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginLeft="12dp"
+                        android:textSize="16sp"
+                        android:layout_marginTop="0dp"
+                        android:textColor="@android:color/black"
+                        android:text="Ambulance" />
+
+                    <TextView
+                        android:id="@+id/call_102"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="8dp"
+                        android:text="102"
+                        android:textColor="#0277BD"
+                        android:textColorHighlight="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/mail_img"
+                    android:layout_width="30dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@id/lin_2"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/sos1"
+                    android:contentDescription="TODO" />
+
+                <LinearLayout
+                    android:id="@+id/lin_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_below="@id/lin_2"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/mail_img"
+                    android:layout_toEndOf="@id/mail_img"
+                    >
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="0dp"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/black"
+                        android:text="Emergency Support 24*7" />
+
+                    <TextView
+                        android:id="@+id/what_call"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="8dp"
+                        android:text="+91 7780940427"
+                        android:textColor="#0277BD"
+                        android:textColorHighlight="@color/black"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_below="@id/lin_2"
+                    android:layout_marginTop="90dp"
+                    android:layout_toRightOf="@id/mail_img"
+                    android:layout_toEndOf="@id/mail_img"
+                    >
+
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="0dp"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/black"
+                        android:text="Email Support 24*7" />
+
+                    <TextView
+                        android:id="@+id/feedback"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="8dp"
+                        android:text="tantryinfo98@gmail.com"
+                        android:textColor="#0277BD"
+                        android:textColorHighlight="@color/black"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

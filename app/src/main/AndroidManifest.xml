@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="in.learncodewithrk.hotel">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hotel"
+        tools:targetApi="31">
+        <activity
+            android:name=".Booking_page"
+            android:exported="false" />
+        <activity
+            android:name=".travel.hotel_page8"
+            android:exported="false" />
+        <activity
+            android:name=".travel.hotel_page7"
+            android:exported="false" />
+        <activity
+            android:name=".travel.hotel_page6"
+            android:exported="false" />
+        <activity
+            android:name=".travel.hotel_page5"
+            android:exported="false" />
+        <activity
+            android:name=".travel.hotel_page4"
+            android:exported="false" />
+        <activity
+            android:name=".travel.hotel_page3"
+            android:exported="false" />
+        <activity
+            android:name=".travel.hotel_page2"
+            android:exported="false" />
+        <activity
+            android:name=".hotel4_page"
+            android:exported="false" />
+        <activity
+            android:name=".hotel3_page"
+            android:exported="false" />
+        <activity
+            android:name=".hotel2_page"
+            android:exported="false" />
+        <activity
+            android:name=".travel.profile_agent_online"
+            android:exported="false" />
+        <activity
+            android:name=".travel.agent_page_list"
+            android:exported="false" />
+        <activity
+            android:name=".travel.agent_page_profile"
+            android:exported="false" />
+        <activity
+            android:name=".travel.hotel1_page"
+            android:exported="false" />
+        <activity
+            android:name=".travel.agent3_page"
+            android:exported="false" />
+        <activity
+            android:name=".travel.agent2_page"
+            android:exported="false" />
+        <activity
+            android:name=".travel.agent1_page"
+            android:exported="false" />
+        <activity
+            android:name=".travel.agent_page"
+            android:exported="false" />
+        <activity
+            android:name=".travel.Travel_Agents_page"
+            android:exported="false" />
+        <activity
+            android:name=".travel.shikarwala_information_profile"
+            android:exported="false" />
+        <activity
+            android:name=".travel.d_category_page_profile"
+            android:exported="false" />
+        <activity
+            android:name=".travel.d_category_page"
+            android:exported="false" />
+        <activity
+            android:name=".travel.c_category_page_profile"
+            android:exported="false" />
+        <activity
+            android:name=".travel.c_category_page"
+            android:exported="false" />
+        <activity
+            android:name=".travel.b_category_page_profile"
+            android:exported="false" />
+        <activity
+            android:name=".travel.b_category_page"
+            android:exported="false" />
+        <activity
+            android:name=".travel.a_category_page_profile"
+            android:exported="false" />
+        <activity
+            android:name=".travel.a_category_page"
+            android:exported="false" />
+        <activity
+            android:name=".hotel.srinagar_hotel_profile"
+            android:exported="false" />
+        <activity
+            android:name=".hotel.sonamarg_profile_page"
+            android:exported="false" />
+        <activity
+            android:name=".hotel.gulmarg_profile"
+            android:exported="false" />
+        <activity
+            android:name=".hotel.user_profile"
+            android:exported="false" />
+        <activity
+            android:name=".hotel.budgam_hotel_page"
+            android:exported="false" />
+        <activity
+            android:name=".hotel.srinagar_hotel"
+            android:exported="false" />
+        <activity
+            android:name=".hotel.sonamarg_hotel_page"
+            android:exported="false" />
+        <activity
+            android:name=".hotel.gulmarg_hotel"
+            android:exported="false" />
+        <activity
+            android:name=".admin_login$budgam_hotel_page"
+            android:exported="false" />
+        <activity
+            android:name=".sanamarg_hotel"
+            android:exported="false" />
+        <activity
+            android:name=".galmarg_hotel"
+            android:exported="false" />
+        <activity
+            android:name=".budgam_hotel"
+            android:exported="false" />
+        <activity
+            android:name=".Home.shikarwala_information"
+            android:exported="false" />
+        <activity
+            android:name=".Home.houseboart_information"
+            android:exported="false" />
+        <activity
+            android:name=".Home.hotel_information"
+            android:exported="false" />
+        <activity
+            android:name=".Home.sos_page"
+            android:exported="false" />
+        <activity
+            android:name=".Login.forgetpass"
+            android:exported="false" />
+        <activity
+            android:name=".Login.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login.LoginandregisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Slider.Welcome_slider_1"
+            android:exported="false" />
+        <activity
+            android:name=".Home.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Main.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

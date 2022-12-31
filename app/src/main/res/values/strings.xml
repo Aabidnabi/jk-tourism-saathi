@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">JK Tourism Saathi</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="about1">About us</string>
+    <string name="about_text">\nQuality Customer Service. From the moment you step in an hotel till your last day in your allocated room, the hotel staff would largely determine the quality of your experience
+
+        </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
