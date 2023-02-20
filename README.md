@@ -2,6 +2,6 @@
 Andriod Application
 
 </hr>
- <img align="center" src="1.jpg" alt="UI" height="200" width="100" />
+ <img align="center" src="1.jpg" alt="UI" height="250" width="100" />
  <img align="center" src="2.jpg" alt="_ansuman_behera_/" height="80" width="40" />
 
