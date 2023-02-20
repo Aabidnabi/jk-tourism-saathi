@@ -19,6 +19,6 @@ This is project is aimed to provide an One Stop solution for tourists/visitors a
 - Database: Firebase Realtime database.
 <br>
 
-| ![home](img1.jpg) | ![Imgur](img2.jpg) |![Imgur](img3.jpg) |  ![Imgur](img4.jpg) |
+![home](img1.jpg)  ![Imgur](img2.jpg) </br>![Imgur](img3.jpg)   ![Imgur](img4.jpg) 
 
 
