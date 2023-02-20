@@ -2,5 +2,7 @@
 Andriod Application
 
 </hr>
- <img align="center" src="1.jpg" alt="UI" height="50%" width="20%" /> <img align="center" src="2.jpg" alt="_ansuman_behera_/" height="50%" width="20" />
+ ||||
+|:----------------------------------------:|:-----------------------------------------:|:-----------------------------------------: |
+| ![Imgur](1.jpg) | ![Imgur](2.jpg) | ![Imgur]3.jpg) |
 
