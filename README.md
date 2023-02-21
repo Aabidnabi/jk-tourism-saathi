@@ -11,7 +11,7 @@ This is project is aimed to provide an One Stop solution for tourists/visitors a
 - ***Houseboats***
 - ***Shikaras***
 - ***Travel Guides***
-- ***Travel Agencies & operators
+- ***Travel Agencies & operators***
 
 ## Technologies Used
 - Front End: HTML, CSS, Bootstrap, JavaScript.
