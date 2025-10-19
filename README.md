@@ -14,8 +14,7 @@ This is project is aimed to provide an One Stop solution for tourists/visitors a
 - ***Travel Agencies & operators***
 
 ## Technologies Used
-- Front End: HTML, CSS, Bootstrap, JavaScript.
-- Back End:Android-Java
+- Ui Framework:Andriod Java
 - Database: Firebase Realtime database.
 <br>
 
